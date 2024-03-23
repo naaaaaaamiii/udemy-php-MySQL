@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[namiさんのフィード]]></title><description><![CDATA[Zennのnamiさん（@skal073）のRSSフィードです]]></description><link>https://zenn.dev/skal073</link><image><url>https://storage.googleapis.com/zenn-user-upload/avatar/358eb8c010.jpeg</url><title>namiさんのフィード</title><link>https://zenn.dev/skal073</link></image><generator>zenn.dev</generator><lastBuildDate>Sat, 23 Mar 2024 11:43:08 GMT</lastBuildDate><atom:link href="https://zenn.dev/skal073/feed" rel="self" type="application/rss+xml"/><language><![CDATA[ja]]></language><item><title><![CDATA[phpstorm　ブラウザ表示できるようにする]]></title><description><![CDATA[
+ 設定
+ファイルを開いてsettingを選択
+
+PHPを開いて
+PHP language level
+CLI interpreterをそれぞれ設定して三点のマークのとこをクリック
+
+php executableのところにはphp-cgi.exeファイルがあるところを指定する
+configuration fileは何かわかんないけど表示したいやつ選んでみた
+
+これでOKにして自分が好きなブラウザを選択したら見れるよ！！
+
+ ブラウザ選択どうやるんだい！！！！！
+初期設定から何も変更していなかったら、コード上にマウスを持ってくと右側にGoogleChromeとか出てくるからそれ押したら自動...]]></description><link>https://zenn.dev/skal073/articles/7f0341712d4f65</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/7f0341712d4f65</guid><pubDate>Sun, 17 Mar 2024 22:00:01 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--wcS4AifZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:phpstorm%25E3%2580%2580%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[Please make sure you have the correct access rightsand the repository]]></title><description><![CDATA[
+ git push origin ~をしたらなんかいわれたんだが
+新しいエディタを用意していろいろ設定してこれでgitに接続できたかな！って思ったらエラー出た
+
+ Please make sure you have the correct access rights　and the repository exists.
+このエラーは、Gitがリモートリポジトリにアクセスしようとした際にアクセス権が不足しているか、または指定されたリポジトリが存在しないって言ってるみたい。
+
+ SSHキーの発行
+https://qiita.com/GakuNaitou/items/81dbbd3ea621...]]></description><link>https://zenn.dev/skal073/articles/6a3b83a12f2d2e</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/6a3b83a12f2d2e</guid><pubDate>Sun, 17 Mar 2024 04:45:06 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--7A7b4qL3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Please%2520make%2520sure%2520you%2520have%2520the%2520correct%2520access%2520rightsand%2520th...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[brewコマンド使えるようにする]]></title><description><![CDATA[
+ Homebrewインストール
+なんかふつうにbrewってみんなコマンド使ってるけどつかえないんだが？？？？？
+ってみんななったことない？
+Homebrewってやつインストールしてないと使えないっぽい
+（みんなは最初の環境構築とかする時にやってるから当たり前につかえるようにしてるみたい！初心者置いていかないで！！！）
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+上記のコマンドをホームディレクトリで実行
+!
+windowsの人は通常のターミ...]]></description><link>https://zenn.dev/skal073/articles/8d4a3e62cb8d30</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/8d4a3e62cb8d30</guid><pubDate>Sat, 16 Mar 2024 13:07:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--HqijIgiO--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:brew%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[[AWS]CLF-C02受験して合格してみた！]]></title><description><![CDATA[
+ 私にできる事
+未経験から入社して技術的に提供できるものがみんなより少ないとしても何とかして力になりたいと思って資格を取ってみようと思った。
+直接的に役に立たなくても、ほかの勉強をする時の土台となるかもしれないし資格持ってるだけでも人にいい影響を与えられるなら役に立てるかなって、、、、。
+
+ 勉強期間
+10日で合格した！！って人がいたから10日を目安に頑張ってみた！
+けど、ちょうど家族がインフルエンザにかかってしまってちょっとずつみんなずれてインフルになるから3人世話するの大変で4日しか時間が取れませんでした、、、。
+
+ 勉強方法
+
+AWSが提供している無料動画学習
+AWSが提供してい...]]></description><link>https://zenn.dev/skal073/articles/428eadac38e859</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/428eadac38e859</guid><pubDate>Sat, 13 Jan 2024 06:10:51 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--oLppyuLF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BAWS%255DCLF-C02%25E5%258F%2597%25E9%25A8%2593%25E3%2581%2597%25E3%2581%25A6%25E5%2590%2588%25E6%25A0%25BC%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[error: failed to push some refs to URL　が出た]]></title><description><![CDATA[
+ なんで？
+新しくリポジトリを作成してローカルリポジトリとリモートリポジトリを紐づけしようとしたら早々にエラーが発生した。
+え？？？？
+今まで通りにやってたけどなんで？始めてこんなエラー出てきた気がせんでもない🫠
+
+ エラー
+
+まず、src refspec main does not match anyって何を言ってる？
+→雰囲気的にpushしようとしてるリモートリポジトリのブランチ名と、プッシュしようとしているローカルのブランチ名が違うよって感じの事言われてる。
+
+ とりあえずやったこと
+今はgit push origin mainって入力して、mainにpushしようとしてるからロ...]]></description><link>https://zenn.dev/skal073/articles/633c15caab6997</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/633c15caab6997</guid><pubDate>Sun, 24 Dec 2023 08:51:38 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--3KeYk--S--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:error%253A%2520failed%2520to%2520push%2520some%2520refs%2520to%2520URL%25E3%2580%2580%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[GitHub Pagesで404エラーが出たとき]]></title><description><![CDATA[
+ GitHubでページ公開できる！？
+GitHubでは無料で、かつ簡単に静的Webサイトをインターネット上で公開することができるらしい。
+そんなのやってみるしかないよね？ってことでやってみることにした。
+
+ 手順
+前提として
+リポジトリを作成していること。
+ローカルリポジトリとリモートリポジトリを紐づけていること。
+Webサイトを構築してプッシュしていること。として話を進めていきます。
+
+ 1.セッティングを行う。
+公開したいリポジトリを開き、Setthingを選択。
+次に、Pageを選択。
+次に、Sourseの「None」を「master branch」に変更。
+そして、一番上に表示...]]></description><link>https://zenn.dev/skal073/articles/6b00d731ab3cbf</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/6b00d731ab3cbf</guid><pubDate>Mon, 30 Oct 2023 07:10:31 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--NbP7TaC6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Pages%25E3%2581%25A7404%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Javascript】基本]]></title><description><![CDATA[
+ 基本の形
+文字の部分に表示したい文字を記述する。
+文字は、シングルクォーテーションかダブルクォーテーションで囲む必要がある。
+文末はセミコロンで終了させる。
+console.log("文字");
+
+ 文字の結合
+「+」記号を用いると、文字列同士を連結することができます。
+console.log("A"+"B");
+上記のように記述するとABと表示される。
+
+ 変数
+letを先頭に付けることでこれから変数を定義するよ！　という合図になっている。
+ここでの=の意味は右辺を左辺に代入するという意味。
+let 変数名 = 値;
+let name ="jon"の場合jonがnameに代入された...]]></description><link>https://zenn.dev/skal073/articles/670db0ac105b6b</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/670db0ac105b6b</guid><pubDate>Wed, 27 Sep 2023 06:20:29 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--23aNh1A5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_66:%25E3%2580%2590Javascript%25E3%2580%2591%25E5%259F%25BA%25E6%259C%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Ruby】　条件分岐]]></title><description><![CDATA[
+ if式
+if 条件式
+  処理  
+end
+条件式の結果が真か偽に応じて行われる処理を分岐させることができる。
+
+ else
+if式では、elseを使うことでifの条件式の返り値が偽であった場合の処理を設定できる。
+if 条件式
+  処理1  # 条件式の返り値が真だったら処理1を行う
+else
+  処理2  # 条件式の返り値が偽だったら処理2を行う
+end
+
+ elsif
+elsifを使うことで条件・処理を追加することができる。
+elsifはいくつでも追加可能。
+if 条件式1
+  処理1  # 条件式1の返り値が真だったら処理1を行う
+elsif 条件式2
+  処理2  # 条...]]></description><link>https://zenn.dev/skal073/articles/50ef938f01f5a7</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/50ef938f01f5a7</guid><pubDate>Fri, 22 Sep 2023 06:52:05 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--vMYdgS5R--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Ruby%25E3%2580%2591%25E3%2580%2580%25E6%259D%25A1%25E4%25BB%25B6%25E5%2588%2586%25E5%25B2%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Ruby】　変数と定数]]></title><description><![CDATA[
+ 変数ってなに？
+
+名札のような役割のもの。変数の値は書き置き換えることができる。
+例えば上記の画像の場合@postと入力されたらpost.newの事を意味する。
+変数を用いることで短い文字で定義することができる。
+
+ 定数ってなに？
+定数は文字の通り、あらかじめ変更しないことが保証された数値やデータに名札を付けたようなもの。
+!
+実際に変更しても書き換えはできる。
+だが、執行不可能なエラーではないが非推奨な使い方となっているため書き換えが必要な場合は変数を用いるようにする。
+
+
+ 変数展開ってなに？
+変数を扱うようになると、整数型か文字列型か少しわかりづらくなり、to_sを付けるべき...]]></description><link>https://zenn.dev/skal073/articles/9e867d201bf636</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/9e867d201bf636</guid><pubDate>Fri, 22 Sep 2023 06:26:04 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--xhINtqLA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Ruby%25E3%2580%2591%25E3%2580%2580%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25A8%25E5%25AE%259A%25E6%2595%25B0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Ruby】文字列型、整数型]]></title><description><![CDATA[
+ 型ってなに？
+
+文字列型(String)
+整数型(Integer)
+
+ダブルクォーテーション（"）で囲ったものは、文字列型として扱われ、囲っていないものは、整数型として扱われます。
+
+もじは点々がついてるから""を付けるって覚える！
+
+
+
+1行目は、整数型の計算である「5+3」が行われ、実行結果「8」が表示
+2行目は、ダブルクォーテーション（"）で囲われた「5+3」の文字が表示
+3行目は、ダブルクォーテーション（"）で囲われた文字列型の「5」と「3」を+でつないでいるので、「5」と「3」がつながって表示
+
+ 文字列型、整数型の型変換
+型が違うものを「+」で結合するとエラーが起きる。
+...]]></description><link>https://zenn.dev/skal073/articles/8a9dcd72d8c4c1</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/8a9dcd72d8c4c1</guid><pubDate>Thu, 21 Sep 2023 08:52:32 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--K-8nBQey--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Ruby%25E3%2580%2591%25E6%2596%2587%25E5%25AD%2597%25E5%2588%2597%25E5%259E%258B%25E3%2580%2581%25E6%2595%25B4%25E6%2595%25B0%25E5%259E%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[Git　コマンドまとめ]]></title><description><![CDATA[
+ ワークツリーとインデックスの現在の状況
+git status
+
+ 変更履歴を残す準備
+git add ファイル名
+git add ファイル名と記述することでここで指定したファイルをワークツリーからインデックスに追加することができる。
+
+ 全てのファイルを一括で追加するとき
+git add -A
+git add .
+ファイル名を指定した場合、ファイルが増えるたびに入力必要があるので大量のファイルを同時に作成したときなどは上記コマンドを使用
+
+ 変更履歴を保存(コミットする)
+git commit
+git commit -m "メッセージ"
+-mを追加することで、コミットメッセージを一緒...]]></description><link>https://zenn.dev/skal073/articles/65ea53926d3555</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/65ea53926d3555</guid><pubDate>Thu, 21 Sep 2023 07:08:29 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--MzpiYq_p--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Git%25E3%2580%2580%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[CLIを学ぶ]]></title><description><![CDATA[
+ CLIってなに
+CLIとは
+
+コマンドラインインターフェース（Command Line Interface）
+CLIでは「コマンド」という、キーボードによる文字入力を行い、コンピューターに命令をしていきます。
+コンピューターは受け取った命令に対する結果を文字として出力します。
+
+
+ コマンド
+
+ ＄
+$は、ターミナルでの入力を表している。
+$ではなく%となるときもある。
+
+ 現在のディレクトリを表示
+$ ls
+
+ 現在のディレクトリのパスを表示
+$ pwd
+後ろに引数としてパスを入力すると、
+指定したパスにあるディレクトリの内容を表示できます。
+
+例
+$ ls test
+
+上記の場合...]]></description><link>https://zenn.dev/skal073/articles/852f25864e25f8</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/852f25864e25f8</guid><pubDate>Thu, 07 Sep 2023 06:09:30 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--5EwEtSYR--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_76:CLI%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Rails】ログインしたユーザーのみ使えるようにしたい]]></title><description><![CDATA[
+ いま
+閲覧はログインしなくてもできるけど投稿とかコメントとかそういう機能はユーザー登録やログインしたらみれるよ！っていうのやりたい。
+
+ 方法1　ボタンごと消す
+
+そもそも上画像のようなコメント欄がなかったらコメントすることもできないわけだからこれごと消して強制的に機能が使えなくする方法
+
+html.erb
+ &lt;% if user_signed_in? %&gt;
+     &lt;div id="comment_form"&gt;
+       &lt;%= render 'post_comments/form', post: @post, post_comment: @po...]]></description><link>https://zenn.dev/skal073/articles/da0e84e59b49d3</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/da0e84e59b49d3</guid><pubDate>Mon, 04 Sep 2023 20:00:01 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--JlPIuIzo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Rails%25E3%2580%2591%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%2597%25E3%2581%259F%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E3%2581%25AE%25E3%2581%25BF%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[デプロイ]]></title><description><![CDATA[
+ デプロイで使用したコードまとめ！
+
+ Cloud9からEC2へログイン
+ssh -i ~/.ssh/practice-aws.pem ec2-user@EC2のパブリックIPアドレス
+ログインを解除するときはexitを入力
+
+ アプリケーションサーバーの起動
+rails s -e production
+
+ アプリケーションサーバーの停止
+kill $(cat tmp/pids/puma.pid)
+この動作を行うとブラウザで確認しても閲覧できなくなる。
+killの後にプロセスID(実行中のプログラム識別番号)を指定して実行することで対象のプロセスを終了することができる。
+今回用いた方法...]]></description><link>https://zenn.dev/skal073/articles/a2e527fbed8a72</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/a2e527fbed8a72</guid><pubDate>Mon, 04 Sep 2023 05:02:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--rVv1VAoG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_72:%25E3%2583%2587%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Rails】いいねした投稿を一覧表示する]]></title><description><![CDATA[
+ 🍍現状
+いいね機能を実装している。
+
+ 🍍ルーティング
+
+config/routes.rb
+resources :users, only: [:index, :show, :edit, :update, :new] do
+  member do
+    get :favorites 
+  end
+end
+
+userにネストすることで、どのユーザーがいいねしたのかをurlで判別できるようになる。
+どのユーザーか判別するためにはidが必要なのでmemberを用いる。
+
+ 🍍コントローラー
+
+users_controller.rb
+ def favorites 
+    @user = U...]]></description><link>https://zenn.dev/skal073/articles/eefdde93dd800e</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/eefdde93dd800e</guid><pubDate>Mon, 04 Sep 2023 02:40:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--XxoQS8if--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Rails%25E3%2580%2591%25E3%2581%2584%25E3%2581%2584%25E3%2581%25AD%25E3%2581%2597%25E3%2581%259F%25E6%258A%2595%25E7%25A8%25BF%25E3%2582%2592%25E4%25B8%2580%25E8%25A6%25A7%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Rails】コメント機能非同期通信化]]></title><description><![CDATA[
+ 🍍今回
+コメント機能の非同期通信化をおこなう！
+
+ 🍍Gemインストール
+Gemfileに記述する
+
+Gemfile
+gem 'jquery-rails'
+
+ターミナルでbundle installを実行
+bundle install
+
+ 🍍部分テンプレート化
+非同期通信化するためには、行いたい部分を部分テンプレートにする必要がある。
+
+ 🍍Ajaxの処理を適用
+ページを更新することなくページの内容だけを入れ替えられる処理。
+
+ form_with 部分 (コメントフォーム)
+
+app/views/post_comments/_form.html.erb
+&lt;%= form_wi...]]></description><link>https://zenn.dev/skal073/articles/56b011463d6f50</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/56b011463d6f50</guid><pubDate>Fri, 11 Aug 2023 09:21:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--tOY8hLEZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Rails%25E3%2580%2591%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E6%25A9%259F%25E8%2583%25BD%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E9%2580%259A%25E4%25BF%25A1%25E5%258C%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Rails】 コメント機能]]></title><description><![CDATA[
+ 🍍今回の流れ
+
+ 完成図
+https://www.loom.com/share/fce3ec1ce58d4582bc5feac5fca7d853?sid=fc1c26e4-2bff-4e2b-981a-ffb7eb2b4349
+
+ モデル
+
+book_commentモデルを追加
+空のコメントは保存できない
+
+
+ コントローラー
+
+book_commentsコントローラを追加
+createアクションを追加
+destroyアクションを追加
+自分のコメントしか削除できないこと
+コメント、 コメント削除後は行う前の画面に遷移する
+
+
+ ビュー
+
+投稿一覧画面にコメント数を追加➀
+投稿詳細画面...]]></description><link>https://zenn.dev/skal073/articles/c59957b300b5f9</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/c59957b300b5f9</guid><pubDate>Thu, 10 Aug 2023 04:29:59 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--5NSMK44M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Rails%25E3%2580%2591%2520%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E6%25A9%259F%25E8%2583%25BD%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[【Rails】Bootstrapまとめ]]></title><description><![CDATA[自分が今まで使ってるものを忘れないようにまとめてます。
+随時増えていきます。
+
+ プルダウン
+&lt;%= f.select :post_status, Post.post_statuses.keys.map{ |k| [t("enums.post.status.#{k}"),k]}, {}, {class: "custom-select "} %&gt;
+
+{class: "custom-select"} を加える
+class: "custom-select w-数字で横幅のサイズを変えれる
+
+ 表からボーダー消したいとき
+&lt;table class="table table-bo...]]></description><link>https://zenn.dev/skal073/articles/946d7839680a73</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/946d7839680a73</guid><pubDate>Fri, 04 Aug 2023 13:29:20 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--0DrxcFdl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Rails%25E3%2580%2591Bootstrap%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[I18n::InvalidLocaleData in PostsController#create]]></title><description><![CDATA[
+ error発生
+PF作成中に投稿機能を追加したところdbに情報が保存されていなかったためsave!でエラーを表示させようとしたところ以下のようなエラーが発生した。
+I18n::InvalidLocaleData in PostsController#create
+
+
+ 原因
+エラーの表示を英語から日本語訳されるようにしたところja.ymlファイルに記述してる内容が日かかってしまいエラーが表示された。
+
+ 解決
+ファイルの中身はコピペしてるだけだったのでコードをミスしてることはないと思う。
+エラー文を見てみると2行目の1文字目のところがエラーが出てるみたい。
+？？？？？
+よくわからなか...]]></description><link>https://zenn.dev/skal073/articles/974c22e95b3e67</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/974c22e95b3e67</guid><pubDate>Fri, 04 Aug 2023 11:43:04 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--n__w6ooV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:I18n%253A%253AInvalidLocaleData%2520in%2520PostsController%2523create%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item><item><title><![CDATA[[チーム開発git] git pullしたらhintいっぱいでた！]]></title><description><![CDATA[
+ 🍍現状
+git pullを行ったところなんかhintいっぱい出された。
+
+
+ 🍍解決
+調べたところhintで出てる以下3つのどれかを実行すればいいみたい。
+
+git config pull.rebase false
+git config pull.rebase true
+git config pull.ff only
+
+私は、git config pull rebase falseを選びました。🐻‍❄️
+💎この3つの違いは何？って思った方は参考のサイトに飛んでみてください
+
+ なんか出てきた
+
+git config pull.rebase falseを行ったことでhintは出なくなっ...]]></description><link>https://zenn.dev/skal073/articles/1073ac149b1c6f</link><guid isPermaLink="true">https://zenn.dev/skal073/articles/1073ac149b1c6f</guid><pubDate>Sun, 30 Jul 2023 08:06:31 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--B-DV4ZJD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255B%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E9%2596%258B%25E7%2599%25BAgit%255D%2520git%2520pull%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589hint%25E3%2581%2584%25E3%2581%25A3%25E3%2581%25B1%25E3%2581%2584%25E3%2581%25A7%25E3%2581%259F%25EF%25BC%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM1OGViOGMwMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png" length="0" type="image/png"/><dc:creator>nami</dc:creator></item></channel></rss>
